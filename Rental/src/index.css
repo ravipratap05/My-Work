@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  card class have black background when hover it it change to primary */
+@layer base {
+  html {
+    width: auto;
+    min-width: auto;
+    max-width: auto;
+    scroll-behavior: smooth;
+  }
+  body {
+    width: auto;
+  }
+}
