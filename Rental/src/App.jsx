@@ -45,10 +45,10 @@ const App = () => {
       <BrowserRouter>
         <Navbar theme={theme} setTheme={setTheme} />
         <Routes>
-          <Route path="/submit" exact element={<Submit theme={theme} />} />
-          <Route path="/:booking" exact element={<Booking theme={theme} />} />
+          {/* <Route path="/submit" exact element={<Submit theme={theme} />} /> */}
+          <Route path="/booking" exact element={<Booking theme={theme} />} />
           <Route
-            path="*"
+            path="/*"
             element={
               <>
                 <Hero theme={theme} />
